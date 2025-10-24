@@ -101,7 +101,7 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Info Text Emphasis */
+/* Info Text */
 #about .card-body {
   padding: 2rem 2.2rem;
   background: linear-gradient(135deg, #ffffff 0%, #f8faff 100%);
