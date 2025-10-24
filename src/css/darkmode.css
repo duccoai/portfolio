@@ -1,0 +1,84 @@
+/* ---------- DARK MODE FIXED ---------- */
+body.dark-mode {
+  background-color: #18191a !important;
+  color: #e4e6eb !important;
+}
+
+/* General background override */
+body.dark-mode .bg-body,
+body.dark-mode .cover,
+body.dark-mode .profile-info,
+body.dark-mode section,
+body.dark-mode .card,
+body.dark-mode .navbar,
+body.dark-mode footer {
+  background-color: #242526 !important;
+  color: #e4e6eb !important;
+  border-color: #3a3b3c !important;
+}
+
+/* Navbar */
+body.dark-mode .navbar .nav-link {
+  color: #e4e6eb !important;
+}
+body.dark-mode .navbar .nav-link.active {
+  background-color: #3a3b3c !important;
+  color: #fff !important;
+}
+body.dark-mode .nav-pills .nav-link:hover {
+  background-color: #3a3b3c !important;
+  color: #fff !important;
+}
+
+/* Cards & Text */
+body.dark-mode .card-body {
+  background: linear-gradient(135deg, #242526 0%, #18191a 100%) !important;
+}
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode small {
+  color: #e4e6eb !important;
+}
+
+/* Links */
+body.dark-mode a {
+  color: #58a6ff !important;
+}
+body.dark-mode a:hover {
+  color: #82c0ff !important;
+}
+
+/* Footer */
+body.dark-mode footer {
+  background-color: #242526 !important;
+  color: #b0b3b8 !important;
+  border-top: 1px solid #3a3b3c !important;
+}
+
+/* Avatar Border */
+body.dark-mode .avatar-img {
+  border-color: #3a3b3c !important;
+}
+
+/* Skill icons */
+body.dark-mode .skill-icon {
+  background-color: #3a3b3c !important;
+  border-color: #3a3b3c !important;
+  box-shadow: none;
+}
+
+/* Project posts */
+body.dark-mode .project-post {
+  background-color: #242526 !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Cover overlay tweak */
+body.dark-mode .cover-img {
+  filter: brightness(0.6);
+}

@@ -1,0 +1,16 @@
+/* ---------- EXPERIENCE ---------- */
+#experience .card {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+.experience-item h6 {
+  font-weight: 600;
+}
+.experience-item p {
+  color: #555;
+  line-height: 1.6;
+}
+.experience-item small {
+  color: #888;
+}

@@ -1,0 +1,38 @@
+/* ---------- SKILLS ---------- */
+#skills .card {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+.skill-icon-wrapper {
+  position: relative;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.skill-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
+}
+.skill-icon:hover {
+  transform: translateY(-6px) scale(1.05);
+  border: 2px solid #1877f2;
+  box-shadow: 0 0 15px rgba(24, 119, 242, 0.4);
+  cursor: pointer;
+}
+.skill-icon img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
